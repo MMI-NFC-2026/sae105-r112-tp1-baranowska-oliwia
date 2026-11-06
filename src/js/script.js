@@ -1,5 +1,5 @@
 //TODO
-const aMettreEnRouge = document.querySelector("a-mettre-en-rouge");
+const aMettreEnRouge = document.querySelector("#a-mettre-en-rouge");
 aMettreEnRouge.style.color = "red";
 
 const boutonRouge = document.querySelector("#en-rouge-suite-a-click");
@@ -13,4 +13,5 @@ collH2.forEach((elm) => {
         evt.target.style.color = "red";
     });
 }); 
+
 
